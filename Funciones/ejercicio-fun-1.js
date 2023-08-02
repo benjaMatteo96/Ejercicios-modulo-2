@@ -98,3 +98,41 @@ function calcularImpuesto (ingresoAnual){
   console.log(`Por ganar ${ingresoAnual} debes pagar un impuesto de ${impuesto}`)
 }
 calcularImpuesto(15000)
+
+/* 7) Crea una función llamada "verificarDia" que reciba un parámetro numérico que 
+represente el número del día de la semana, y devuelva un mensaje que indique si es un 
+día laboral o no. Si el número es 1, 2, 3, 4, 5, el mensaje debe decir "Es un día laboral". Si 
+el número es 6 o 7, el mensaje debe decir "Es fin de semana". Utiliza la estructura de 
+control switch anidada para implementar esta función. Llama a la función con 
+diferentes valores de día para verificar que funcione correctamente. 
+ */
+
+function verificarDia (diaSemana){
+  switch (diaSemana){
+    case 1: 
+      console.log("Es un dia laboral");
+      break;
+    case 2:
+      console.log("Es un dia laboral")
+      break;
+    case 3:
+      console.log("Es un dia laboral")
+      break;
+    case 4:
+      console.log("Es un dia laboral")
+      break;
+    case 5:
+      console.log("Es un dia laboral")
+      break;
+    case 6:
+    console.log("Es fin de semana")
+    break;
+    case 7:
+    console.log("Es fin de semana")
+    break;
+  }
+
+  }
+
+  verificarDia(2)
+  
