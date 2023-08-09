@@ -8,20 +8,20 @@ un mensaje que diga: “Ganaste, has adivinado el número.” No te preocupes si
 mucho código repetido, más adelante verás cómo realizar este juego de manera más 
 eficiente. */
 
-// let numeroIncognita = 5;
-// let numeroIngresado = Number(prompt("Ingrese un numero, tienes dos oportunidades mas!"));
+let numeroIncognita = 5;
+let numeroIngresado = Number(prompt("Ingrese un numero, tienes dos oportunidades mas!"));
 
-// if (numeroIngresado > numeroIncognita || numeroIngresado <numeroIncognita) {
-//   console.log("El numero ingresado es menor o es mayor, te quedan 2 oportunidades!")
-//   numeroIngresado = Number(prompt("Ingrese un numero, tienes dos oportunidades mas!"));
-  
-// } if (numeroIngresado > numeroIncognita || numeroIngresado <numeroIncognita) {
-//   console.log("El numero ingresado es menor o es mayor, te quedan 1 oportunidades!")
-//   numeroIngresado = Number(prompt("Ingrese un numero, tienes dos oportunidades mas!"));
-  
-// } if (numeroIngresado > numeroIncognita || numeroIngresado <numeroIncognita) {
-//   console.log("El numero ingresado es menor o es mayor, Perdiste el juego :C")
-  
-// } else {
-//   console.log("Ganaste, haz adivinado el juego")
-// }
+if (numeroIngresado > numeroIncognita || numeroIngresado < numeroIncognita) {
+  console.log("El numero ingresado es menor o es mayor, te quedan 2 oportunidades!")
+  numeroIngresado = Number(prompt("Ingrese un numero, tienes dos oportunidades mas!"));
+
+} if (numeroIngresado > numeroIncognita || numeroIngresado < numeroIncognita) {
+  console.log("El numero ingresado es menor o es mayor, te quedan 1 oportunidades!")
+  numeroIngresado = Number(prompt("Ingrese un numero, tienes dos oportunidades mas!"));
+
+} if (numeroIngresado > numeroIncognita || numeroIngresado < numeroIncognita) {
+  console.log("El numero ingresado es menor o es mayor, Perdiste el juego :C")
+
+} else {
+  console.log("Ganaste, haz adivinado el juego")
+}

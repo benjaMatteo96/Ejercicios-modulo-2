@@ -3,7 +3,7 @@ jugadores y muestre en pantalla cuál de los 2 ha ganado o si han empatado. En c
 de algún ingreso incorrecto mostrar por pantalla que uno de los jugadores ha hecho 
 trampa. */
 
-/* let player_1 = prompt("Turno del player 1: piedra, papel o tijera?")
+let player_1 = prompt("Turno del player 1: piedra, papel o tijera?")
 let player_2 = prompt("Turno del player 2: piedra, papel o tijera?")
 
 if (player_1 === "piedra" && player_2 === "tijera"){
@@ -24,4 +24,4 @@ if (player_1 === "piedra" && player_2 === "tijera"){
   console.log("Empate!")
 }else if (player_1 === "tijera" && player_2 ==="tijera") {
   console.log("Empate!")
-} */
+}
